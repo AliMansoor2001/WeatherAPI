@@ -3,7 +3,7 @@ function onWeather() {
     const apiKey =  "ac170f82d211f2282cfc0f795376a14b"
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     const apiKey2 = "31537412e0a94919978141209252302"
-    const imgUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey2}&q=${city}&aqi=no`
+    const imgUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey2}&q=${city}&aqi=no`
   
   fetch(url)
   .then(response => {
