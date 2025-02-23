@@ -1,0 +1,116 @@
+body{
+    padding: 25px;
+    background-color: #3ea4f0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+.WeathAPI {
+    background-color: #ffffff;
+    height: auto;
+    width: 300px;
+    margin: 20px 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 2px;
+  }
+
+.heading {
+    width: 95%;
+    height: 60px;
+    font-size: 18px;
+    color:#3ea4f0;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 1px solid grey;
+  }
+  
+#city {
+    width: 80%;
+    height: 20px;
+    padding: 8px 8px;
+    display: block;
+    margin: 20px auto 20px;
+    border: 2px solid #a8d7ee;
+    border-radius: 2px;
+  }
+  
+#city:focus {
+    outline: none;
+    border: 2px solid #3ea4f0;
+  } 
+  
+.Apibtn {
+    width: 85%;
+    color: white;
+    background-color: #3ea4f0;
+    padding: 15px 10px;
+    border-radius: 2px;
+    align-self: center;
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+.Apibtn:hover {
+    background-color: #0792fc;
+  }
+  
+.Apibtn:active {
+    transform: translate(0.5px,0.5px);
+    transition: opacity 0.3s ease-in;
+  }
+  
+.result {
+    width: 300px;
+    height: 450px;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#weatherImg {
+    width: 50%;
+    height: 120px;
+    display: none;
+}
+
+#temperature {
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+}
+
+#description {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+#city-name {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+#temperature, #description, #city-name {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
